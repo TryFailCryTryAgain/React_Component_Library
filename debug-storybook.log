@@ -1,0 +1,209 @@
+[19:45:44.125] [DEBUG] Command "yarn.cmd" not found, trying next variation...
+[19:45:44.216] [DEBUG] Command "yarn.exe" not found, trying next variation...
+[19:45:44.303] [DEBUG] Command "yarn.ps1" not found, trying next variation...
+[19:45:44.470] [DEBUG] Command "pnpm.cmd" not found, trying next variation...
+[19:45:44.562] [DEBUG] Command "pnpm.exe" not found, trying next variation...
+[19:45:44.649] [DEBUG] Command "pnpm.ps1" not found, trying next variation...
+[19:45:45.071] [INFO] [36mInitializing Storybook[39m
+[19:45:45.164] [DEBUG] Command "yarn.cmd" not found, trying next variation...
+[19:45:45.247] [DEBUG] Command "yarn.exe" not found, trying next variation...
+[19:45:45.329] [DEBUG] Command "yarn.ps1" not found, trying next variation...
+[19:45:45.483] [DEBUG] Command "pnpm.cmd" not found, trying next variation...
+[19:45:45.563] [DEBUG] Command "pnpm.exe" not found, trying next variation...
+[19:45:45.642] [DEBUG] Command "pnpm.ps1" not found, trying next variation...
+[19:45:46.078] [DEBUG] Getting package.json info for C:/Users/david/source/repos/React_Component_Library/package.json...
+[19:45:46.078] [INFO] Package manager: npm
+[19:45:46.081] [DEBUG] Getting CLI versions from NPM for storybook...
+[19:45:46.081] [DEBUG] Executing command: npm info storybook version
+[19:45:46.083] [DEBUG] Resolved command variation: npm.cmd
+[19:45:47.312] [INFO] Adding Storybook version 10.6.1 to your project
+[19:45:47.313] [DEBUG] Executing command: npm config get min-release-age --workspaces=false --include-workspace-root
+[19:45:47.314] [DEBUG] Resolved command variation: npm.cmd
+[19:45:47.710] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:45:47.711] [DEBUG] Project type detected: react
+[19:45:47.711] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:45:47.713] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:45:52.562] [PROMPT] We were not able to detect the right builder for your project. Please select one: {"choice":"vite"}
+[19:45:52.562] [INFO] Framework detected: react-vite
+[19:45:52.563] [DEBUG] Getting installed version for vitest...
+[19:45:52.565] [DEBUG] Executing command: npm ls --json --depth=99
+[19:45:52.567] [DEBUG] Resolved command variation: npm.cmd
+[19:45:53.561] [DEBUG] No installations found for vitest
+[19:45:53.561] [DEBUG] Getting installed version for msw...
+[19:45:53.561] [DEBUG] Executing command: npm ls --json --depth=99
+[19:45:53.563] [DEBUG] Resolved command variation: npm.cmd
+[19:45:54.420] [DEBUG] No installations found for msw
+[19:45:56.652] [PROMPT] New to Storybook? {"choice":true}
+[19:45:56.653] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry
+[19:46:03.428] [PROMPT] Would you like to install AI features (MCP addon and prompt suggestions)? {"choice":false}
+[19:46:03.431] [INFO] base-generator-task-start: Generating Storybook configuration
+[19:46:03.431] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:46:03.431] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:46:03.431] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:46:03.432] [DEBUG] Using cached version for storybook...
+[19:46:03.432] [DEBUG] Getting CLI versions from NPM for @storybook/react-vite...
+[19:46:03.432] [DEBUG] Executing command: npm info @storybook/react-vite version
+[19:46:03.434] [DEBUG] Resolved command variation: npm.cmd
+[19:46:03.464] [DEBUG] Getting CLI versions from NPM for @storybook/addon-vitest...
+[19:46:03.464] [DEBUG] Executing command: npm info @storybook/addon-vitest version
+[19:46:03.466] [DEBUG] Resolved command variation: npm.cmd
+[19:46:03.496] [DEBUG] Getting CLI versions from NPM for @storybook/addon-a11y...
+[19:46:03.496] [DEBUG] Executing command: npm info @storybook/addon-a11y version
+[19:46:03.497] [DEBUG] Resolved command variation: npm.cmd
+[19:46:03.528] [DEBUG] Getting CLI versions from NPM for @storybook/addon-docs...
+[19:46:03.528] [DEBUG] Executing command: npm info @storybook/addon-docs version
+[19:46:03.530] [DEBUG] Resolved command variation: npm.cmd
+[19:46:03.560] [DEBUG] Getting CLI versions from NPM for @storybook/addon-onboarding...
+[19:46:03.560] [DEBUG] Executing command: npm info @storybook/addon-onboarding version
+[19:46:03.561] [DEBUG] Resolved command variation: npm.cmd
+[19:46:04.803] [INFO] base-generator-task: - Configuring main.ts
+[19:46:04.804] [INFO] base-generator-task: - Configuring preview.ts
+[19:46:04.807] [INFO] base-generator-task: - Adding Storybook command to package.json
+[19:46:04.807] [DEBUG] Getting package.json info for C:/Users/david/source/repos/React_Component_Library/package.json...
+[19:46:04.807] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:46:04.807] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:46:04.808] [INFO] base-generator-task: - Copying framework templates
+[19:46:04.845] [DEBUG] Executing command: npm config get registry --workspaces=false --include-workspace-root
+[19:46:04.847] [DEBUG] Resolved command variation: npm.cmd
+[19:46:05.493] [INFO] base-generator-task-success: Storybook configuration generated
+[19:46:05.494] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:46:05.494] [DEBUG] Using cached installed version for vitest...
+[19:46:05.494] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:46:05.494] [DEBUG] Getting installed version for @vitest/coverage-v8...
+[19:46:05.494] [DEBUG] Executing command: npm ls --json --depth=99
+[19:46:05.496] [DEBUG] Resolved command variation: npm.cmd
+[19:46:06.372] [DEBUG] No installations found for @vitest/coverage-v8
+[19:46:06.372] [DEBUG] Getting installed version for @vitest/coverage-istanbul...
+[19:46:06.372] [DEBUG] Executing command: npm ls --json --depth=99
+[19:46:06.373] [DEBUG] Resolved command variation: npm.cmd
+[19:46:07.256] [DEBUG] No installations found for @vitest/coverage-istanbul
+[19:46:07.257] [INFO] adding-dependencies-task-start: Adding dependencies to package.json
+[19:46:07.257] [INFO] adding-dependencies-task: Adding devDependencies:
+- storybook@^10.6.1
+- @storybook/react-vite@^10.6.1
+- @chromatic-com/storybook
+- @storybook/addon-vitest@^10.6.1
+- @storybook/addon-a11y@^10.6.1
+- @storybook/addon-docs@^10.6.1
+- @storybook/addon-onboarding@^10.6.1
+- vitest
+- @vitest/browser-playwright
+- @vitest/coverage-v8
+- playwright
+[19:46:07.258] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:46:07.258] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:46:07.258] [INFO] adding-dependencies-task-success: Dependencies added to package.json
+[19:46:07.259] [INFO] Installing dependencies...
+[19:46:07.260] [INFO] install-dependencies-spinner-start: Installing dependencies...
+[19:46:07.260] [DEBUG] Executing command: npm install
+[19:46:07.262] [DEBUG] Resolved command variation: npm.cmd
+[19:46:27.499] [INFO] Installing dependencies...: 
+added 202 packages, and audited 259 packages in 20s
+
+[19:46:27.499] [INFO] install-dependencies-spinner: Installing dependencies...: added 202 packages, and a
+[19:46:27.500] [INFO] Installing dependencies...: 
+65 packages are looking for funding
+  run `npm fund` for details
+
+[19:46:27.500] [INFO] install-dependencies-spinner: Installing dependencies...: 65 packages are looking f
+[19:46:27.503] [INFO] Installing dependencies...: 
+1 low severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+[19:46:27.503] [INFO] install-dependencies-spinner: Installing dependencies...: 1 low severity vulnerabil
+[19:46:27.547] [INFO] Dependencies installed
+[19:46:27.547] [INFO] install-dependencies-spinner-stop: Dependencies installed
+[19:46:27.572] [INFO] configure-addons-task-start: Configuring addons...
+[19:46:27.572] [INFO] configure-addons-task: Configuring @chromatic-com/storybook...
+[19:46:27.648] [WARN] Could not resolve the postinstall hook of @chromatic-com/storybook, skipping its configuration. Run `npx storybook add @chromatic-com/storybook` to set it up manually.
+[19:46:27.648] [INFO] configure-addons-task: @chromatic-com/storybook configured
+
+[19:46:27.649] [INFO] configure-addons-task: Configuring @storybook/addon-vitest...
+[19:46:27.650] [DEBUG] Getting package.json info for C:/Users/david/source/repos/React_Component_Library/package.json...
+[19:46:27.651] [DEBUG] Using cached package.json for C:\Users\david\source\repos\React_Component_Library\package.json...
+[19:46:27.651] [DEBUG] Getting installed version for vitest...
+[19:46:27.651] [DEBUG] Executing command: npm ls --json --depth=99
+[19:46:27.652] [DEBUG] Resolved command variation: npm.cmd
+[19:46:28.640] [DEBUG] Installed version for vitest: 5.0.3
+[19:46:28.641] [DEBUG] Vitest version specifier: 5.0.3
+[19:46:28.810] [DEBUG] Using cached installed version for vitest...
+[19:46:28.810] [DEBUG] Getting installed version for msw...
+[19:46:28.810] [DEBUG] Executing command: npm ls --json --depth=99
+[19:46:28.811] [DEBUG] Resolved command variation: npm.cmd
+[19:46:29.783] [DEBUG] No installations found for msw
+[19:46:29.809] [INFO] Creating a Vitest config file:
+[19:46:29.809] [INFO] C:/Users/david/source/repos/React_Component_Library/vitest.config.ts
+[19:46:29.817] [INFO] Setting up a11y addon for @storybook/addon-vitest
+[19:46:29.817] [INFO] Setting up a11y addon for @storybook/addon-vitest
+[19:46:29.817] [DEBUG] Executing command: npx storybook automigrate addon-a11y-addon-test --loglevel silent --yes --skip-doctor --package-manager npm --skip-install
+[19:46:29.819] [DEBUG] Resolved command variation: npx.cmd
+[19:46:53.145] [INFO] a11y addon setup successfully
+[19:46:53.145] [INFO] [32ma11y addon setup successfully[39m
+[19:46:53.145] [INFO] [32m@storybook/addon-vitest setup completed successfully[39m
+[19:46:53.146] [INFO] @storybook/addon-vitest is now configured and you're ready to run your tests!
+Here are a couple of tips to get you started:
+
+• You can run tests with "[36mnpx vitest[39m"
+• Vitest IDE extension shows all stories as tests in your editor!
+
+Check the documentation for more information about its features and options at:
+https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
+[19:46:53.146] [INFO] configure-addons-task: @storybook/addon-vitest configured
+
+[19:46:53.146] [INFO] configure-addons-task: Configuring @storybook/addon-a11y...
+[19:46:53.146] [INFO] configure-addons-task: @storybook/addon-a11y configured
+
+[19:46:53.147] [INFO] configure-addons-task: Configuring @storybook/addon-docs...
+[19:46:53.219] [WARN] Could not resolve the postinstall hook of @storybook/addon-docs, skipping its configuration. Run `npx storybook add @storybook/addon-docs` to set it up manually.
+[19:46:53.220] [INFO] configure-addons-task: @storybook/addon-docs configured
+
+[19:46:53.220] [INFO] configure-addons-task: Configuring @storybook/addon-onboarding...
+[19:46:53.282] [WARN] Could not resolve the postinstall hook of @storybook/addon-onboarding, skipping its configuration. Run `npx storybook add @storybook/addon-onboarding` to set it up manually.
+[19:46:53.282] [INFO] configure-addons-task: @storybook/addon-onboarding configured
+
+[19:46:53.282] [INFO] configure-addons-task-success: Addons configured successfully
+[19:46:53.283] [INFO] [2m✅ @chromatic-com/storybook[22m
+[19:46:53.285] [INFO] [2m✅ @storybook/addon-vitest[22m
+[19:46:53.285] [INFO] [2m✅ @storybook/addon-a11y[22m
+[19:46:53.285] [INFO] [2m✅ @storybook/addon-docs[22m
+[19:46:53.285] [INFO] [2m✅ @storybook/addon-onboarding[22m
+[19:46:53.286] [INFO] Playwright browser binaries are necessary for @storybook/addon-vitest. The download can take some time. If you don't want to wait, you can skip the installation and run the following command manually later:
+[36mnpx playwright install chromium --with-deps[39m
+[19:46:57.814] [PROMPT] Do you want to install Playwright with Chromium now? {"choice":true}
+[19:46:57.814] [INFO] Installing Playwright browser binaries (press "c" to abort)
+[19:46:57.814] [INFO] playwright-installation-spinner-start: Installing Playwright browser binaries (press "c" to abort)
+[19:46:57.815] [DEBUG] Executing command: npx playwright install chromium --with-deps
+[19:46:57.816] [DEBUG] Resolved command variation: npx.cmd
+[19:47:00.245] [INFO] Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243)[2m from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip[22m
+
+[19:47:00.245] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Te
+[19:47:05.722] [INFO] Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243)[2m from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip[22m
+
+[19:47:05.722] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Te
+[19:47:11.143] [INFO] Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243)[2m from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip[22m
+
+[19:47:11.143] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Te
+[19:47:16.579] [INFO] Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243)[2m from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip[22m
+
+[19:47:16.579] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Te
+[19:47:22.049] [INFO] Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243)[2m from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip[22m
+
+[19:47:22.049] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Downloading Chrome for Te
+[19:47:27.537] [INFO] Installing Playwright browser binaries (press "c" to abort): Failed to install browsers
+Error: Failed to download Chrome for Testing 153.0.8010.12 (playwright chromium v1243), caused by
+Error: Download failure, code=1
+    at ChildProcess.<anonymous> (C:\Users\david\source\repos\React_Component_Library\node_modules\playwright-core\lib\coreBundle.js:32428:32)
+    at ChildProcess.emit (node:events:507:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+[19:47:27.537] [INFO] playwright-installation-spinner: Installing Playwright browser binaries (press "c" to abort): Failed to install browser
+[19:47:27.567] [ERROR] An error occurred while installing Playwright browser binaries. Please run the following command later: npx playwright install chromium --with-deps {"error":"SB_CLI_INIT_0016 (PlaywrightInstallFailedError): Failed to install Playwright browser binaries.\n\nCommand failed with exit code 1: npx.cmd playwright install chromium --with-deps\nError: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip timed out after 30000ms\n    at ClientRequest.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:8793:15)\n    at Object.onceWrapper (node:events:621:28)\n    at ClientRequest.emit (node:events:507:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:863:9)\n    at Object.onceWrapper (node:events:621:28)\n    at TLSSocket.emit (node:events:519:35)\n    at Socket._onTimeout (node:net:609:8)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)\nError: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip timed out after 30000ms\n    at ClientRequest.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:8793:15)\n    at Object.onceWrapper (node:events:621:28)\n    at ClientRequest.emit (node:events:507:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:863:9)\n    at Object.onceWrapper (node:events:621:28)\n    at TLSSocket.emit (node:events:519:35)\n    at Socket._onTimeout (node:net:609:8)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)\nError: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip timed out after 30000ms\n    at ClientRequest.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:8793:15)\n    at Object.onceWrapper (node:events:621:28)\n    at ClientRequest.emit (node:events:507:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:863:9)\n    at Object.onceWrapper (node:events:621:28)\n    at TLSSocket.emit (node:events:519:35)\n    at Socket._onTimeout (node:net:609:8)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)\nError: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip timed out after 30000ms\n    at ClientRequest.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:8793:15)\n    at Object.onceWrapper (node:events:621:28)\n    at ClientRequest.emit (node:events:507:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:863:9)\n    at Object.onceWrapper (node:events:621:28)\n    at TLSSocket.emit (node:events:519:35)\n    at Socket._onTimeout (node:net:609:8)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)\nError: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip timed out after 30000ms\n    at ClientRequest.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:8793:15)\n    at Object.onceWrapper (node:events:621:28)\n    at ClientRequest.emit (node:events:507:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:863:9)\n    at Object.onceWrapper (node:events:621:28)\n    at TLSSocket.emit (node:events:519:35)\n    at Socket._onTimeout (node:net:609:8)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)\nDownloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243)\u001b[2m from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip\u001b[22m\nDownloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243)\u001b[2m from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip\u001b[22m\nDownloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243)\u001b[2m from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip\u001b[22m\nDownloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243)\u001b[2m from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip\u001b[22m\nDownloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243)\u001b[2m from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip\u001b[22m\nFailed to install browsers\nError: Failed to download Chrome for Testing 153.0.8010.12 (playwright chromium v1243), caused by\nError: Download failure, code=1\n    at ChildProcess.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:32428:32)\n    at ChildProcess.emit (node:events:507:28)\n    at ChildProcess._handle.onexit (node:internal/child_process:294:12)\nCommand failed with exit code 1: npx.cmd playwright install chromium --with-deps\n\nError: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip timed out after 30000ms\n    at ClientRequest.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:8793:15)\n    at Object.onceWrapper (node:events:621:28)\n    at ClientRequest.emit (node:events:507:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:863:9)\n    at Object.onceWrapper (node:events:621:28)\n    at TLSSocket.emit (node:events:519:35)\n    at Socket._onTimeout (node:net:609:8)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)\nError: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip timed out after 30000ms\n    at ClientRequest.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:8793:15)\n    at Object.onceWrapper (node:events:621:28)\n    at ClientRequest.emit (node:events:507:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:863:9)\n    at Object.onceWrapper (node:events:621:28)\n    at TLSSocket.emit (node:events:519:35)\n    at Socket._onTimeout (node:net:609:8)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)\nError: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip timed out after 30000ms\n    at ClientRequest.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:8793:15)\n    at Object.onceWrapper (node:events:621:28)\n    at ClientRequest.emit (node:events:507:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:863:9)\n    at Object.onceWrapper (node:events:621:28)\n    at TLSSocket.emit (node:events:519:35)\n    at Socket._onTimeout (node:net:609:8)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)\nError: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip timed out after 30000ms\n    at ClientRequest.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:8793:15)\n    at Object.onceWrapper (node:events:621:28)\n    at ClientRequest.emit (node:events:507:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:863:9)\n    at Object.onceWrapper (node:events:621:28)\n    at TLSSocket.emit (node:events:519:35)\n    at Socket._onTimeout (node:net:609:8)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)\nError: Request to https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip timed out after 30000ms\n    at ClientRequest.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:8793:15)\n    at Object.onceWrapper (node:events:621:28)\n    at ClientRequest.emit (node:events:507:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:863:9)\n    at Object.onceWrapper (node:events:621:28)\n    at TLSSocket.emit (node:events:519:35)\n    at Socket._onTimeout (node:net:609:8)\n    at listOnTimeout (node:internal/timers:614:17)\n    at process.processTimers (node:internal/timers:549:7)\n\nDownloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip\nDownloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip\nDownloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip\nDownloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip\nDownloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip\nFailed to install browsers\nError: Failed to download Chrome for Testing 153.0.8010.12 (playwright chromium v1243), caused by\nError: Download failure, code=1\n    at ChildProcess.<anonymous> (C:\\Users\\david\\source\\repos\\React_Component_Library\\node_modules\\playwright-core\\lib\\coreBundle.js:32428:32)\n    at ChildProcess.emit (node:events:507:28)\n    at ChildProcess._handle.onexit (node:internal/child_process:294:12)\n    at categorizeExecaError (file:///C:/Users/david/AppData/Local/npm-cache/_npx/84393f47498545b5/node_modules/storybook/dist/_node-chunks/chunk-A5M3SXLF.js:15551:218)\n    at categorize (file:///C:/Users/david/AppData/Local/npm-cache/_npx/84393f47498545b5/node_modules/storybook/dist/_node-chunks/chunk-A5M3SXLF.js:15561:31)\n    at file:///C:/Users/david/AppData/Local/npm-cache/_npx/84393f47498545b5/node_modules/storybook/dist/_node-chunks/chunk-A5M3SXLF.js:15564:61\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+[19:47:27.567] [ERROR] playwright-installation-spinner-error: [31mAn error occurred while installing Playwright browser binaries. Please run the following command later: npx playwright install chromium --with-deps[39m
+[19:47:28.847] [WARN] Storybook setup completed, but some non-blocking errors occurred. Please check the log file below for details.
+[19:47:28.848] [INFO] To run Storybook, run [36mnpm run storybook[39m. CTRL+C to stop.
+[19:47:28.848] [INFO] Want to learn more about Storybook? [36mhttps://storybook.js.org/[39m
+Having trouble or want to chat? [36mhttps://discord.gg/storybook/[39m
